@@ -13,3 +13,24 @@
 I am 34 years old, and the desire to learn something new led me to programming.
 Previous work was mostly a team, so communication is about me.
 **_Difficult task?_** - the time for its solution flew by imperceptibly and with the benefit of me.
+
+## Skills ##
+
++ HTML
++ CSS
++ JavaScript(Basic)
++ Git
++ PhotoShop
++ Figma
+
+## Code Example ##
+
+```
+function paperwork(n, m) {
+    if (n <= 0 || m <= 0) {
+      return 0;
+  } else {
+      return n * m;
+  }
+}
+```
