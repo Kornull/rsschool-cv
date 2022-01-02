@@ -344,3 +344,44 @@ section {
 .skill--git {
   width: 49%;
 }
+
+/* Code
+================ */
+.code__task {
+  width: 100%;
+  max-width: 520px;
+  height: 210px;
+  background: #11122e;
+  margin: 20px auto;
+  border-radius: 25px;
+  box-shadow: 0 0px 15px #fff;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.code__js {
+  margin: 0 auto;
+  width: 396px;
+}
+
+.code__example {
+  font-size: 1rem;
+  overflow-x: auto;
+  width: 394px;
+  height: 100%;
+  padding: 30px 10px;
+  background: none;
+  color: #f8f8f8;
+}
+
+.code__example--keyword {
+  color: #03ff00;
+}
+
+.code__example--number {
+  color: #0effeb;
+}
+
+.code__example--built-in {
+  color: #faff00;
+}
