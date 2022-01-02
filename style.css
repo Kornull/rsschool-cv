@@ -385,3 +385,45 @@ section {
 .code__example--built-in {
   color: #faff00;
 }
+
+/* Projects
+================= */
+.project__name {
+  position: relative;
+  font-weight: 700;
+}
+
+.project__name a {
+  font-size: 1.4rem;
+  color: #d1d1d1;
+  padding-bottom: 20px;
+  transition: color .2s linear;
+}
+
+.project__name a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.project__name::after {
+  content: "";
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 1px;
+  margin: 0 auto;
+  background: #fff;
+  position: absolute;
+  bottom: -18px;
+}
+
+.project__image {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 600px;
+  max-height: 300px;
+  background: #797979;
+  border-radius: 25px;
+  box-shadow: 0 0 15px #000000;
+  overflow: hidden;
+}
