@@ -254,3 +254,93 @@ section {
   font-weight: 500;
   color: #000;
 }
+
+/* Skills
+================ */
+.skill_list {
+  display: flex;
+}
+
+.skill__item {
+  margin: 25px auto;
+  width: 100%;
+  max-width: 55%;
+}
+
+.skill__inner {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+
+.skill__inner::after {
+  content: "";
+  display: block;
+  width: 100%;
+  max-width: 120%;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+.skill__icon {
+  display: block;
+  width: 60px;
+  position: absolute;
+  left: -5px;
+  top: -5px;
+}
+
+.skill__codewars {
+  display: block;
+  width: auto;
+}
+
+.skill__name {
+  font-size: 1.6rem;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.skill__progress {
+  width: 76%;
+  color: #fff;
+  background: #26515e8a;
+  text-align: right;
+  height: 18px;
+  bottom: -15px;
+  left: 8px;
+
+}
+
+.skill__progress p {
+  padding: 2px;
+}
+
+.skill--html {
+  width: 81%;
+}
+
+.skill--css {
+  width: 76%;
+}
+
+.skill--js {
+  width: 32%;
+}
+
+.skill--photoshop {
+  width: 61%;
+}
+
+.skill--figma {
+  width: 79%;
+}
+
+.skill--git {
+  width: 49%;
+}
