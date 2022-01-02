@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__link">
+            <a href="#contacts">Contacts</a>
+          </li>
+          <li class="nav__link">
+            <a href="#me">About me</a>
+          </li>
+          <li class="nav__link">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="nav__link">
+            <a href="#code">Code</a>
+          </li>
+          <li class="nav__link">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="nav__link">
+            <a href="#education">Education</a>
+          </li>
+          <li class="nav__link">
+            <a href="#language">Language</a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+    <main class="main">
+      <div class="content">
+
+        <!-- About Me -->
+        <section class="about" id="me">
+          <div class="section__title">
+            <h1>About me</h1>
+          </div>
+          <div class="about__description">
+            <p>I am 34 years old, and the desire to learn something new led me to programming.
+              Previous work was mostly a team, so communication is about me.</p>
+            <p><span>Difficult task?</span> - the time for its solution flew by imperceptibly and with the benefit of
+              me.
+            </p>
+          </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skill" id="skills">
+          <div class="section__title">
+            <h2>Skills</h2>
+          </div>
+
+          <div class="skill__item">
+            <ul>
+
+              <li class="skill__inner">
+
+                <div class="skill__name">HTML5</div>
+                <img class="skill__icon" src="./assets/img/logo/html.svg" alt="html">
+                <div class="skill__progress skill--html">
+                  <p>81%</p>
+                </div>
+              </li>
+
+              <li class="skill__inner">
+                <img class="skill__icon" src="./assets/img/logo/css3.svg" alt="css">
+                <div class="skill__name">CSS3</div>
+                <div class="skill__progress skill--css">
+                  <p>76%</p>
+                </div>
+              </li>
+
+              <li class="skill__inner">
+                <img class="skill__icon" src="./assets/img/logo/javascript.svg" alt="javascript">
+                <div class="skill__name">JavaScript</div>
+                <div class="skill__progress skill--js">
+                  <p>32%</p>
+                </div>
+              </li>
+
+              <li class="skill__inner">
+                <img class="skill__icon" src="./assets/img/logo/photoshop.svg" alt="photoshop">
+                <div class="skill__name">Adobe PhotoShop</div>
+                <div class="skill__progress skill--photoshop">
+                  <p>61%</p>
+                </div>
+              </li>
+
+              <li class="skill__inner">
+                <img class="skill__icon" src="./assets/img/logo/figma.svg" alt="figma">
+                <div class="skill__name">Figma</div>
+                <div class="skill__progress skill--figma">
+                  <p>79%</p>
+                </div>
+              </li>
+
+              <li class="skill__inner">
+                <img class="skill__icon" src="./assets/img/logo/github.svg" alt="github">
+                <div class="skill__name">GitHub</div>
+                <div class="skill__progress skill--git">
+                  <p>49%</p>
+                </div>
+              </li>
+
+            </ul>
+          </div> <!-- /.skill__item -->
+        </section>
+
+        <!-- Code -->
+        <section class="code" id="code">
+          <div class="section__title section__gray">
+            <h2>Code Example</h2>
+          </div>
+          <div class="code__task">
+            <div class="code__js">
+
+              <pre class="code__example">
+<span class="code__example--keyword">function</span> century&lpar;<span  class="code__example--built-in">year</span>&rpar; &lbrace;
+  <span class="code__example--keyword">let</span> centuryCount &equals; <span class="code__example--number">0</span>&semi;
+
+  <span class="code__example--keyword">while</span> &lpar;<span class="code__example--built-in">year</span> &gt; <span class="code__example--number">0</span>&rpar;&lbrace;
+      <span class="code__example--built-in">year</span> &equals; <span   class="code__example--built-in">year</span> &minus; <span class="code__example--number">100</span>&semi;
+      centuryCount &equals; centuryCount &plus; <span class="code__example--number">1</span>&semi;
+      &rbrace;
+  return centuryCount&semi;
+  &rbrace;</pre>
+            </div>
+          </div> <!-- /.code__task -->
+        </section>
+
+        <!-- Projects -->
+        <section class="projects" id="projects">
+          <div class="section__title section__gray">
+            <h2>Projects</h2>
+          </div>
+
+          <ul>
+
+            <li class="project__name">
+              <a target="_blank" href="https://kornull.github.io/rsschool-cv/cv">CV-Markdowm</a>
+              <div class="project__image"><a href="https://kornull.github.io/rsschool-cv/cv"><img
+                    src="./assets/img/project_img/cv.png" alt="CV"></a>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+      </div> <!-- /.content -->
+
+      <!-- Aside -->
+      <aside class="aside">
+
+        <div class="aside__img">
+          <img src="./assets/img/foto1.jpg" alt="photo">
+        </div> <!-- Aside__img -->
+
+        <!-- Name -->
+        <div class="aside__name">
+          <div class="aside__title">
+            <h2>Name</h2>
+          </div>
+          <div class="aside__full--name">
+            Uladzimir Karnialiuk
+          </div>
+          <div class="aside__status">front-end developer - <span>training</span></div>
+        </div> <!-- /.aside__name -->
+
+        <!-- Contacts -->
+        <div class="aside__info" id="contacts">
+          <div class="aside__title">
+            <h2>Contacts</h2>
+          </div>
+
+          <ul class="info__list">
+            <li class="info__description">
+              <h4 class="info__title">Telegram:</h4>
+              <a class="info__text" href="https://t.me/kornul_665" target="_blank">@kornul_665</a>
+            </li>
+
+            <li class="info__description">
+              <h4 class="info__title">GitHub:</h4>
+              <a class="info__text" href="https://github.com/Kornull" target="_blank">Kornull</a>
+            </li>
+
+            <li class="info__description">
+              <h4 class="info__title">Discord:</h4>
+              <div class="info__text info--text">Kornul (@Kornull)</div>
+            </li>
+          </ul>
+        </div> <!-- /.aside__info -->
+
+        <!-- Language -->
+        <div class="aside__language" id="language">
+          <div class="aside__title">
+            <h2>Language</h2>
+          </div>
+          <ul>
+            <li>Belarussian</li>
+            <li>Russian</li>
+            <li>English - <span>intensive study</span></li>
+          </ul>
+        </div>
+
+        <!-- Education -->
+        <div class="aside__education" id="education">
+          <div class="aside__title">
+            <h2>Education</h2>
+          </div>
+          <div class="education__list">
+            <ul>
+              <li class="education__description">
+                <h4 class="education__title">Courses:</h4>
+
+                <ol>
+                  <li class="education__description">
+                    <h4 class="education__title">RS School:</h4>
+                    <a class="info__text" href="https://rs.school/js-stage0/" target="_blank">JavaScript: stage 0 -
+                      <span>
+                        in
+                        process
+                      </span>
+                    </a>
+                  </li>
+                  <li class="education__description">
+                    <h4 class="education__title">Stepik:</h4>
+                    <a class="info__text" href="https://stepik.org/cert/924946" target="_blank">HTML&CSS</a>
+                  </li>
+                </ol>
+
+              </li>
+            </ul>
+          </div>
+        </div> <!-- /.education -->
+      </aside>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+
+        <div class="footer__git">
+          <a href="https://github.com/Kornull" target="_blank">
+            <img class="logo__git" src="./assets/img/logo/git-footer.svg" alt="GitHub">
+          </a>
+        </div>
+
+        <div class="footer__text">
+          <p class="copyright"><a href="#">
+              &copy; Kornull in 2021
+            </a>
+          </p>
+        </div>
+
+        <div class="footer__rss">
+          <a href="https://rs.school/js/" target="_blank">
+            <img class="logo__rss" src="./assets/img/logo/rs_school_js.svg" alt="RS School">
+          </a>
+        </div>
+      </div> <!-- /.footer__content -->
+    </footer>
+
+  </div> <!-- /.container -->
+</body>
+
+</html>
