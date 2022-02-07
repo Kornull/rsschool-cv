@@ -388,9 +388,20 @@ section {
 
 /* Projects
 ================= */
+.project__works {
+  margin: 0 auto;
+}
+.project__works ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .project__name {
   position: relative;
+  width: 48%;
   font-weight: 700;
+  margin-bottom: 30px;
+
 }
 
 .project__name a {
@@ -419,7 +430,8 @@ section {
 
 .project__image {
   margin: 20px auto;
-  width: 100%;
+  width: 80%;
+  height: 140px;
   max-width: 600px;
   max-height: 300px;
   background: #797979;
