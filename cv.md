@@ -34,3 +34,16 @@ function paperwork(n, m) {
   }
 }
 ```
+
+## Experience ##
+
+## Education ##
++ **Courses**
+  + **RS School:** [JavaScript](https://rs.school/js-stage0/)(begginer)
+  + **Stepik:** [HTML&CSS](https://stepik.org/cert/924946)
+
+## Languages ##
+
++ Belorussian
++ Russian
++ English(A0) - *intensive study*
